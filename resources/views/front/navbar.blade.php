@@ -47,7 +47,7 @@
   </style>
   <!-- Start Top Nav -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block fixed-top" id="templatemo_nav_top"
-        style="background:#039fe0!important">
+        style="background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(14,49,100,1) 13%, rgba(13,58,110,1) 80%, rgba(3,159,224,1) 100%)!important">
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
                 <div>
@@ -105,71 +105,71 @@
                 aria-label="Toggle navigation" style="background-color:#0358c0;border: 1px solid #0358c0;"><span class="navbar-toggler-icon" ></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active test" aria-current="page" href="{{route('home')}}"
+                    <li class="nav-item link-1"><a class="nav-link active link-1" aria-current="page" href="{{route('home')}}"
                             style="color: #0358c0">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link test" href="#!" style="color: #0358c0">MIP</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#about-us" id="navbarDarkDropdownMenuLink"
+                    <li class="nav-item link-1"><a class="nav-link link-1" href="#!" style="color: #0358c0">MIP</a></li>
+                    <li class="nav-item link-1 dropdown">
+                        <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
                             APLI
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item test" href="#about-us" style="color: #0358c0;">Apercu</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Apercu</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Projets</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Projets</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Pays/Inst hotes </a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Pays/Inst hotes </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Partenaires</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle test" href="#about-us" id="navbarDarkDropdownMenuLink"
+                    <li class="nav-item link-1 dropdown">
+                        <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
                             PAP
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Apercu</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Apercu</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Offre</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Offre</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Uni/Inst/Entr</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Uni/Inst/Entr</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Partenaires</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle test" href="#about-us" id="navbarDarkDropdownMenuLink"
+                    <li class="nav-item link-1 dropdown link-1">
+                        <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
                             LCH
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Apercu</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Apercu</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Projets</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Projets</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Vil/Coll hotes</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Vil/Coll hotes</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#about-us" style="color: #0358c0;">Partenaires</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link test" href="#!" style="color: #0358c0">Ressources</a></li>
-                    <li class="nav-item"><a class="nav-link test" href="{{route('contact')}}" style="color: #0358c0">Contact</a></li>
+                    <li class="nav-item link-1"><a class="nav-link link-1" href="#!" style="color: #0358c0">Ressources</a></li>
+                    <li class="nav-item link-1"><a class="nav-link link-1" href="{{route('contact')}}" style="color: #0358c0">Contact</a></li>
                 </ul>
             </div>
         </div>

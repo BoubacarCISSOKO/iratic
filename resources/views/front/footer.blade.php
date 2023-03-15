@@ -1,5 +1,5 @@
  <!-- Start Footer -->
-  <footer class="bg-dark mt-2" id="tempaltemo_footer" style="background:#0358c0 !important">
+  <footer class="bg-dark mt-2" id="tempaltemo_footer" style="background: linear-gradient(90deg, rgba(14,49,100,1) 0%, rgba(14,49,100,1) 16%, rgba(12,65,118,1) 34%, rgba(8,114,173,1) 47%, rgba(10,88,143,1) 59%, rgba(12,75,129,1) 86%, rgba(3,159,224,1) 100%)!important">
         <div class="container">
             <div class="row">
  
@@ -129,7 +129,7 @@
             </div>
         </div>
 
-        <div class="w-100" style=" background: #039fe0!important;">
+        <div class="w-100" style="background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(14,49,100,1) 13%, rgba(13,58,110,1) 80%, rgba(3,159,224,1) 100%)!important;">
             <div class="container">
                 <div class="row pt-1">
                     <div class="col-12 text-center">

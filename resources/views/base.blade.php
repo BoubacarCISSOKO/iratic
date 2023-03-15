@@ -34,6 +34,85 @@
 </head>
 
 <style>
+    .position-relative{
+        
+        border-bottom-right-radius: 15px;
+        background-color: #92959a;
+    }
+    .gbc-image{
+        width: 100%;
+        height: 250px;
+    }
+    .gbc-image2{
+        width: 100%;
+        height: 90px;
+    }
+    .services-icon-wap shadow{
+        background-color: #FFF !important;
+    }
+    
+    .card1{
+        
+        border-top-color: 15px #0358c0 !important ;
+        border-radius: 15px !important;
+    }
+
+
+    /* ============ only desktop view ============ */
+		@media all and (min-width: 992px) {
+			.navbar .nav-item .dropdown-menu {
+				display: block;
+				opacity: 0;
+				visibility: hidden;
+				transition: .3s;
+				margin-top: 0;
+			}
+
+			.navbar .nav-item:hover .nav-link {
+				color: #fff;
+			}
+
+			.navbar .dropdown-menu.fade-down {
+				top: 80%;
+				transform: rotateX(-75deg);
+				transform-origin: 0% 0%;
+			}
+
+			.navbar .dropdown-menu.fade-up {
+				top: 180%;
+			}
+
+			.navbar .nav-item:hover .dropdown-menu {
+				transition: .3s;
+				opacity: 1;
+				visibility: visible;
+				top: 100%;
+				transform: rotateX(0deg);
+			}
+		}
+
+		/* ============ desktop view .end// ============ */
+
+
+
+.link-1 {
+  transition: 0.4s;
+  text-decoration: none;
+  margin: 3px;
+}
+.link-1:hover {
+    background-color: #039fe0;
+    color: #FFF !important;
+    margin: 3px;
+}
+
+.border1{
+    border-radius: 8px;
+  border-bottom: 10px solid #0358c0;
+}
+   
+</style>
+<style>
     .btn:hover {
       color: #FFF;
       background: #FFF !important;

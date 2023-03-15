@@ -2,37 +2,11 @@
 
 @section('content')
 @include('front.slider')
-<style>
-    .position-relative{
-        
-        border-bottom-right-radius: 15px;
-        background-color: #92959a;
-    }
-    .gbc-image{
-        width: 100%;
-        height: 250px;
-    }
-    .gbc-image2{
-        width: 100%;
-        height: 90px;
-    }
-    .services-icon-wap shadow{
-        background-color: #FFF !important;
-    }
-    
-    .card1{
-        
-        border-top-color: 15px #0358c0 !important ;
-        border-radius: 15px !important;
-    }
-
-   
-</style>
 
     <div class="px-4 px-lg-5" style="margin-top: 5px;">
        
 
-        <div class="card my-3 py-2 text-center">
+        <div class="card my-3 py-2 text-center border1">
             <div class="card-body">
                 <div class="row">
 
@@ -74,7 +48,7 @@
             </div>
         </div>
 
-        <div class="card col-md-12 col-lg-12">
+        <div class="card col-md-12 col-lg-12 border1">
             <div class="h-100 p-5 shadow">
                 <h2 class="font-weight-light">A propos</h2>
                 <div class="row">
@@ -101,7 +75,7 @@
             </div>
         </div>
       
-        <div class="card my-3 py-2 text-center">
+        <div class="card my-3 py-2 text-center border1">
             <h2 class="font-weight-light">IRATIC ACTIVITES </h2>
             <div class="card-body">
                 <div class="row">
@@ -147,7 +121,7 @@
         </div>
       
        
-        <div class="card col-md-12 col-lg-12">
+        <div class="card col-md-12 col-lg-12 border1">
             <div class="h-100 p-5 shadow">
                 <h2 class="font-weight-light">Nos Offres</h2>
                 <p>Notre agence fait également tout ce qui est démarches administrative à savoir</p>

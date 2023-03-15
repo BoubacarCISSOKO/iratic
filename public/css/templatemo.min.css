@@ -51,7 +51,7 @@ ul {
 }
 
 .text-success {
-    color: #1d242d !important
+    color: #0358c0 !important
 }
 
 .text-light {
@@ -59,7 +59,7 @@ ul {
 }
 
 .bg-dark {
-    background-color: #212934 !important
+    background-color: #0358c0 !important
 }
 
 .bg-light {
@@ -67,12 +67,12 @@ ul {
 }
 
 .bg-black {
-    background-color: #1d242d !important
+    background-color: #0358c0 !important
 }
 
 .bg-success,
 .btn-success {
-    background-color: #1d242d !important
+    background-color: #0358c0 !important
 }
 
 .btn-success {
@@ -81,7 +81,7 @@ ul {
 
 .pagination .page-link.active,
 .pagination .page-link:hover {
-    background-color: #212934;
+    background-color: #0358c0;
     color: #fff
 }
 
@@ -94,11 +94,11 @@ ul {
 }
 
 #templatemo_main_nav a {
-    color: #212934
+    color: #0358c0
 }
 
 #templatemo_main_nav a:hover {
-    color: #212934
+    color: #0358c0
 }
 
 #templatemo_main_nav .navbar .nav-icon {
@@ -118,7 +118,7 @@ ul {
 }
 
 .shop-top-menu a:hover {
-    color: #212934 !important
+    color: #0358c0 !important
 }
 
 .product-wap {
@@ -183,12 +183,12 @@ ul {
 
 #template-mo-zay-hero-carousel .carousel-indicators li {
     margin-top: -50px;
-    background-color: #1d242d
+    background-color: #0358c0
 }
 
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-    color: #1d242d !important;
+    color: #0358c0 !important;
     font-size: 2.8em !important
 }
 
@@ -207,7 +207,7 @@ ul {
 }
 
 .services-icon-wap:hover {
-    background: #212934
+    background: #0358c0
 }
 
 .leaflet-control,
@@ -224,7 +224,7 @@ ul {
 }
 
 #tempaltemo_footer a:hover {
-    color: #212934
+    color: #2d266c
 }
 
 #tempaltemo_footer ul.footer-link-list li {
@@ -243,12 +243,12 @@ ul {
 }
 
 #tempaltemo_footer ul.footer-icons li:hover i {
-    color: #212934;
+    color: #0358c0;
     transition: .5s
 }
 
 #tempaltemo_footer .border-light {
-    border-color: #2d343f !important
+    border-color: #FFF !important
 }
 
 .product-wap .h3,

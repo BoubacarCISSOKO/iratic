@@ -23,8 +23,8 @@
 <style>
     .btn:hover {
       color: #FFF;
-      background: #212934 !important;
-      border-color: #212934;
+      background: #0358c0 !important;
+      border-color: #0358c0;
     }
 </style>
 
@@ -60,7 +60,7 @@
   </style>
   <!-- Start Top Nav -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block fixed-top" id="templatemo_nav_top"
-        style="background:#1d242d !important">
+        style="background:#0358c0 !important">
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
                 <div>
@@ -102,7 +102,7 @@
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation" style="background-color:#212934;border: 1px solid #1d242d;"><span class="navbar-toggler-icon" ></span></button>
+                aria-label="Toggle navigation" style="background-color:#0358c0;border: 1px solid #0358c0;"><span class="navbar-toggler-icon" ></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{route('home')}}"
@@ -198,7 +198,7 @@
                     </form>
 
                     <div class="d-grid gap-2">
-                        <button class="btn text-white" type="button" style="background:#1d242d">Valider</button>
+                        <button class="btn text-white" type="button" style="background:#0358c0">Valider</button>
                     </div>
                     <div class="status"></div>
                 </div>

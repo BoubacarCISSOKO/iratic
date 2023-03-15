@@ -15,17 +15,29 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="{{url('assets/css/fontawesome.min.css')}}">
-<!--
-    
 
--->
+      <!-- <font-family></font-family> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+
+    <!-- responsive slider animation -->
+    <link rel="stylesheet" href="{{ url('_css/responsive-layered-slider.css') }}">
+
+    <script src="{{url('_scripts/jquery-2.0.2.min.js')}}"></script>
+    <script src="{{url('_scripts/jquery-ui-1.10.4.min.js')}}"></script>
+    <script src="{{url('_scripts/responsive-layered-slider.js')}}"></script>
+
+    <!-- animation -->
+    <link rel="stylesheet" href="{{ url('animation/_css/animations.css') }}">
+    <link rel="stylesheet" href="{{ url('animation/_css/main.css') }}">
+
 </head>
 
 <style>
     .btn:hover {
-      color: #212934;
-      background: #212934 !important;
-      border-color: #212934;
+      color: #FFF;
+      background: #FFF !important;
+      border-color: #FFF;
     }
 
     /* voir plus */
@@ -69,9 +81,9 @@
 }
 
 #breadcrumb li a {
-    color: #bac9e7;
+    color: #0358c0 ;
     display: block;
-    background: #212934;
+    background: #FFF;
     text-decoration: none;
     position: relative;
     height: 40px;
@@ -79,21 +91,22 @@
     padding: 0 10px 0 5px;
     text-align: center;
     margin-right: 23px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 #breadcrumb li:nth-child(even) a {
-    background-color: #212934;
+    background-color: #FFF;
 }
 
 #breadcrumb li:nth-child(even) a:before {
-    border-color: #212934;
+    border-color: #FFF;
     border-left-color: transparent;
 
 }
 
 #breadcrumb li:nth-child(even) a:after {
-    border-left-color: #212934;
+    border-left-color: #FFF;
 }
 
 #breadcrumb li:first-child a {
@@ -123,7 +136,7 @@
     content: "";
     position: absolute;
     top: 0;
-    border: 0 solid #212934;
+    border: 0 solid #FFF;
     border-width: 20px 10px;
     width: 0;
     height: 0;
@@ -137,48 +150,46 @@
 #breadcrumb li a:after {
     left: 100%;
     border-color: transparent;
-    border-left-color: #212934;
+    border-left-color: #FFF;
 }
 
 #breadcrumb li a:hover {
-    background-color: #404040;
+    background-color: #0358c0;
 }
 
 #breadcrumb li a:hover:before {
-    border-color: #212934;
-    border-left-color:#212934;
+    border-color: #FFF;
+    border-left-color:#FFF;
 }
 
 #breadcrumb li a:hover:after {
-    border-left-color:#212934;
+    border-left-color:#FFF;
 }
 
 #breadcrumb li a:active {
-    background-color: #404040;
+    background-color: #0358c0;
 }
 
 #breadcrumb li a:active:before {
-    border-color: #212934;
-    border-left-color:#212934;
+    border-color: #FFF;
+    border-left-color:#FFF;
 }
 
 #breadcrumb li a:active:after {
-    border-left-color:#212934;
+    border-left-color:#FFF;
 }
 
-
-
-/* GALERIE */
-
-
-
-p.desc {
-    z-index: 999;
-    position: absolute;
-    top: 10px;
-    padding: 10px;
-}
-
+    a{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+    p{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+    h1,h2,h3{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        font-weight: bold !important;
+        text-transform: uppercase;
+    }
 
 </style>
   <body style="background-color:#f3f3f3">

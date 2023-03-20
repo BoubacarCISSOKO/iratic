@@ -1,27 +1,48 @@
   <!-- Start Content -->
-<style>
+  <style>
     .img-fluid{
-        width: 100% !important;
-        height: 430px;
-        margin-top: 45px !important;
+        width: 100%;
+        height: 330px;
+        margin-top:65px;
+        
     }
+    
+     @media only screen and (max-width: 1000px) {
+        .img-fluid{
+        width: 100%;
+        height: 130px !important;
+        margin-top:55px !important;
+        }
+
+    };
+    
 </style>
     <div class="col-lg-12" style="background-color:#f3f3f3">
-     
-    <div class="sim-slider" data-width="2550" data-height="660" data-animation="350" data-current="false"data-progress="false">   
-                
-                <div class="sim-slider-slide">
-                    <div class="sim-slider-layer" data-effect="rollIn" data-width="767" data-height="500" data-left="1678" data-top="150"><img src="_assets/layer_00055.png" /></div> 
-                    <div class="sim-slider-layer" data-effect="rollIn" data-width="767" data-height="500" data-left="896" data-top="150"><img src="_assets/layer_00033.png" /></div> 
-                    <div class="sim-slider-layer" data-effect="rollIn" data-width="767" data-height="500" data-left="115" data-top="150"><img src="_assets/layer_00044.png" /></div> 
+            <!-- Start Banner Hero -->
+        <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel" style="background-color:#f3f3f3">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="{{url('_assets/5555T.png')}}" alt="Image">
                 </div>
-                    
-                <div class="sim-slider-slide">
-                    <div class="sim-slider-layer" data-effect="rollIn" data-width="767" data-height="500" data-left="115" data-top="150"><img src="_assets/layer_00055.png" /></div> 
-                    <div class="sim-slider-layer" data-effect="rollIn" data-width="767" data-height="500" data-left="896" data-top="150"><img src="_assets/layer_00033.png" /></div> 
-                    <div class="sim-slider-layer" data-effect="rollIn" data-width="767" data-height="500" data-left="1678" data-top="150"><img src="_assets/layer_00044.png" /></div> 
-                </div>      
-                        
+                <div class="carousel-item">
+                    <img class="img-fluid" src="{{url('_assets/666 T.png')}}"  alt="Image">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="{{url('_assets/5555T.png')}}" alt="Image">
+                </div>
             </div>
+            <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+        <!-- End Banner Hero -->
     </div>
    

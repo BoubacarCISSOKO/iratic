@@ -1,4 +1,4 @@
-  <style>
+<style>
     @media only screen and (max-width: 1000px) {
         .gbc{
             margin-top:0px !important;
@@ -81,11 +81,42 @@
                             <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg" style="font-size:12px !important"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn text-white btn-sm testlog" style="background:#0358c0" href="{{ route('login') }}">Se connecter</a>
+                            <ul class="navbar-nav ms-auto">
+                                    <!-- Authentication Links -->
+                                    @guest
+                                        @if (Route::has('login'))
+                                            <li class="nav-item">
+                                                <a class="btn text-white btn-sm testlog mr-2" style="background:#0358c0" href="{{ route('login') }}">Se connecter</a>
+                                            </li>
+                                        @endif
+            
+                                        @if (Route::has('register'))
+                                            <li class="nav-item">
+                                                <a class="btn text-white btn-sm testlog" style="background:#0358c0" href="{{ route('register') }}">S'inscrire</a>
+                                            </li>
+                                        @endif
+                                    @else
+                                        <li class="nav-item dropdown">
+                                            <a id="navbarDropdown" style="color:white; text-decoration:none; font-weight: bold;" class="navbarDarkDropdownMenuLink dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                {{ Auth::user()->name }}
+                                            </a>
+            
+                                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color:#0358c0"  >
+                                                <a class="dropdown-item"style="color:#000;"  href="{{ route('logout') }}"
+                                                   onclick="event.preventDefault();
+                                                                 document.getElementById('logout-form').submit();">
+                                                    {{ __('Logout') }}
+                                                </a>
+            
+                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                                    @csrf
+                                                </form>
+                                            </div>
+                                        </li>
+                                    @endguest
+                                </ul>
                         </li>
-                        <li class="list-inline-item">
-                            <a class="btn text-white btn-sm testlog" style="background:#0358c0" href="{{ route('register') }}">S'inscrire</a>
-                        </li>
+                       
                     </ul>
                 </div>
 
@@ -107,6 +138,32 @@
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item link-1"><a class="nav-link active link-1" aria-current="page" href="{{route('home')}}"
                             style="color: #0358c0">Accueil</a></li>
+                    <li class="nav-item link-1 dropdown">
+                        <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
+                            IRATIC
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">À propos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Orientations</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Dispositifs </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Offres</a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Leaderships </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Programmes</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="nav-item link-1"><a class="nav-link link-1" href="#!" style="color: #0358c0">MIP</a></li>
                     <li class="nav-item link-1 dropdown">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"

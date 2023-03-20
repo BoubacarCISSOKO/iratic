@@ -94,12 +94,15 @@
                     <!--Grid column-->
                     <div class="col-md-3 text-center">
                         <ul class="list-unstyled mb-0">
-                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                <p>M'Bour, Sénégal</p>
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>Dakar, Sénégal</p>
                             </li>
 
                             <li><i class="fas fa-phone"></i>
-                                <p>+221 77 040 49 87 / +221 77 737 56 68</p>
+                                <p>+221 77 455 34 82 / +221 78 187 49 11</p>
+                            </li>
+                            <li><i class="fas fa-envelope"></i>
+                                <p>iratic@iratic.org</p>
                             </li>
                         </ul>
                     </div>

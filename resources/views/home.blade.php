@@ -48,12 +48,12 @@
             </div>
         </div>
 
-        <div class="card col-md-12 col-lg-12 border1">
+        <div id="#about-us" class="card col-md-12 col-lg-12 border1">
             <div class="h-100 p-5 shadow">
                 <h2 class="font-weight-light">A propos</h2>
                 <div class="row">
                     <div class="col-lg-7 mb-3">
-                        <img class="gbc-image" src="{{url('images/3.png')}}" style=" border-radius: 10px !important;" alt="Image">
+                        <img class="gbc-image" src="{{url('_assets/layer_00055.png')}}" style=" border-radius: 10px !important;" alt="Image">
                     </div>
                     <div class="col-lg-5">
                         <p style="text-align: justify;">
@@ -124,8 +124,21 @@
         <div class="card col-md-12 col-lg-12 border1">
             <div class="h-100 p-5 shadow">
                 <h2 class="font-weight-light">Nos Offres</h2>
-                <p>Notre agence fait également tout ce qui est démarches administrative à savoir</p>
-                <a class="btn text-white btn-sm test" style="background:#0358c0" href="#!">En savoir +</a>
+            <div class="sim-slider" data-width="2550" data-height="660" data-animation="350" data-current="false"data-progress="false">   
+                
+                <div class="sim-slider-slide">
+                    <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="2" data-top="150"><img class="imgslider"src="_assets/1.png" /></div> 
+                    <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="850" data-top="150"><img class="imgslider" src="_assets/2.png" /></div> 
+                    <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="1695" data-top="150"><img class="imgslider"src="_assets/3.png" /></div> 
+                </div>
+                    
+                <div class="sim-slider-slide">
+                    <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="2" data-top="150"><img class="imgslider" src="_assets/4.png" /></div> 
+                    <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="850" data-top="150"><img class="imgslider"src="_assets/5.png" /></div> 
+                    <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="1695" data-top="150"><img class="imgslider" src="_assets/6.png" /></div> 
+                </div>      
+                        
+            </div>
             </div>
         </div>
      

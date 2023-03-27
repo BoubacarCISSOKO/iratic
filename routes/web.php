@@ -24,3 +24,25 @@ Route::get('/globalbusinessconulting_2023_AB', [App\Http\Controllers\HomeControl
 
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
 
+Route::get('/a-propos', function () {
+    return view('a-propos');
+})->name('a-propos');
+
+Route::get('/oriantations', function () {
+    return view('oriantations');
+})->name('oriantations');
+
+Route::get('/dispositif', function () {
+    return view('dispositif');
+})->name('dispositif');
+
+Route::get('/leadership', function () {
+    return view('leadership');
+})->name('leadership');
+
+Route::get('/offre', function () {
+    return view('offre');
+})->name('offre');
+ 
+
+

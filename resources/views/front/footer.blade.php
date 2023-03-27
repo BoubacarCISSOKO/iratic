@@ -4,22 +4,22 @@
             <div class="row">
  
                 <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white logo">IRATIC</h2>
+                    <h3 class="h2 text-white border-bottom pb-3 border-white logo">IRATIC</h3>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
-                            <a class="text-decoration-none" href="#">À propos</a>
+                            <a class="text-decoration-none" href="{{route('a-propos')}}">À propos</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Orientations</a>
+                            <a class="text-decoration-none" href="{{route('oriantations')}}">Orientations</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Dispositifs</a>
+                            <a class="text-decoration-none" href="{{route('dispositif')}}">Dispositifs</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Offres</a>
+                            <a class="text-decoration-none" href="{{route('offre')}}">Offres</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Leaderships</a>
+                            <a class="text-decoration-none" href="{{route('leadership')}}">Leaderships</a>
                         </li>
                         <li>
                             <a class="text-decoration-none" href="#">Programmes</a>
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white logo">APLI</h2>
+                    <h3 class="h2 text-white border-bottom pb-3 border-white logo">Policy Lab</h3>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <a class="text-decoration-none" href="#">Apercu </a>
@@ -37,7 +37,7 @@
                             <a class="text-decoration-none" href="#">Projets </a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Pays/Inst </a>
+                            <a class="text-decoration-none" href="#">Hôtes </a>
                         </li>
                         <li>
                             <a class="text-decoration-none" href="#">Partenaires </a>
@@ -49,8 +49,8 @@
                 </div>
 
 
-                <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white logo">PAP</h2>
+                <div class="col-md-3 pt-3">
+                    <h2 class="h2 text-white border-bottom pb-3 border-white logo">Policy Accademy</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <a class="text-decoration-none" href="#">Apercu</a>
@@ -69,16 +69,16 @@
                 </div>
 
                 <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white logo">LCH</h2>
+                    <h2 class="h2 text-white border-bottom pb-3 border-white logo">Local Hack</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">Apercu</a></li>
                         <li><a class="text-decoration-none" href="#">Projets</a></li>
-                        <li><a class="text-decoration-none" href="#">Vil/Col</a></li>
+                        <li><a class="text-decoration-none" href="#">Hôtes</a></li>
                         <li><a class="text-decoration-none" href="#">Partenaires</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-4 pt-3">
+                <div class="col-md-3 pt-3">
                     <h2 class="h2 text-white border-bottom pb-3 border-white logo">Ressources</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>

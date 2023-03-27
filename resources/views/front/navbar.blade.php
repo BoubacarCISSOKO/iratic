@@ -14,6 +14,10 @@
         height: 230px !important;
         }
 
+        .onglet{
+                margin-top:75px !important;
+            }
+
     };
     .navbar-nav{
         text-align: left !important;
@@ -136,39 +140,37 @@
                 aria-label="Toggle navigation" style="background-color:#0358c0;border: 1px solid #0358c0;"><span class="navbar-toggler-icon" ></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item link-1"><a class="nav-link active link-1" aria-current="page" href="{{route('home')}}"
-                            style="color: #0358c0">Accueil</a></li>
+                    
                     <li class="nav-item link-1 dropdown">
-                        <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
+                        <a class="nav-link active dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            IRATIC
+                            Iratic
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">À propos</a>
+                                <a class="dropdown-item link-1" href="{{route('a-propos')}}" style="color: #0358c0;">À propos</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Orientations</a>
+                                <a class="dropdown-item link-1" href="{{route('oriantations')}}" style="color: #0358c0;">Orientations</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Dispositifs </a>
+                                <a class="dropdown-item link-1" href="{{route('dispositif')}}" style="color: #0358c0;">Dispositifs </a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Offres</a>
+                                <a class="dropdown-item link-1" href="{{route('offre')}}" style="color: #0358c0;">Offres</a>
                             </li>
                               <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Leaderships </a>
+                                <a class="dropdown-item link-1" href="{{route('leadership')}}" style="color: #0358c0;">Leaderships </a>
                             </li>
                             <li>
                                 <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Programmes</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item link-1"><a class="nav-link link-1" href="#!" style="color: #0358c0">MIP</a></li>
                     <li class="nav-item link-1 dropdown">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            APLI
+                            Africa Policy Lab
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
@@ -178,7 +180,7 @@
                                 <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Projets</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Pays/Inst hotes </a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Hotes </a>
                             </li>
                             <li>
                                 <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>
@@ -188,7 +190,7 @@
                     <li class="nav-item link-1 dropdown">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            PAP
+                            Africa Policy Academy
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
@@ -208,7 +210,7 @@
                     <li class="nav-item link-1 dropdown link-1">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            LCH
+                            Africa Local Hack
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
@@ -218,7 +220,7 @@
                                 <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Projets</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Vil/Coll hotes</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Hotes</a>
                             </li>
                             <li>
                                 <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>

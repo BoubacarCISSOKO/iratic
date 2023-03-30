@@ -134,7 +134,9 @@
                 <div class="row pt-1">
                     <div class="col-12 text-center">
                         <p class="text-footer" style="font-size: 20px; color: #FFF;">
-                            IRATIC & sa filiale APLI © 2023 - Tous droits réservés.
+                           <marquee behavior="" direction="top">
+                           IRATIC & sa filiale APLI © 2023, réalisé avec <i class="fa fa-heart mx-2" style="color:red;"></i> par l'Eiquipe Tech - Tous droits réservés. 
+                           </marquee>
                         </p>
                     </div>
                 </div>

@@ -1,12 +1,13 @@
 @extends('base')
 
 @section('content')
+@include('front.utils')
 @include('front.slider')
 
     <div class="px-4 px-lg-5" style="margin-top: 5px;">
        
 
-        <div class="card my-3 py-2 text-center border1">
+        <div class="card my-3 py-2 text-center border1 reveal fade-right">
             <div class="card-body">
                 <div class="row">
 
@@ -40,7 +41,7 @@
             </div>
         </div>
 
-        <div id="#about-us" class="card col-md-12 col-lg-12 border1">
+        <div id="#about-us" class="card col-md-12 col-lg-12 border1 reveal fade-left">
             <div class="h-100 p-5 shadow">
                 <h2 class="font-weight-light">A propos</h2>
                 <div class="row">
@@ -67,7 +68,7 @@
             </div>
         </div>
       
-        <div class="card my-3 py-2 text-center border1">
+        <div class="card my-3 py-2 text-center border1 reveal fade-right">
             <h2 class="font-weight-light">IRATIC ACTIVITES </h2>
             <div class="card-body">
                 <div class="row">
@@ -119,7 +120,7 @@
         </div>
       
        
-        <div class="card col-md-12 col-lg-12 border1">
+        <div class="card col-md-12 col-lg-12 border1 reveal fade-top">
             <div class="h-100 p-5 shadow">
                 <h2 class="font-weight-light">Nos Offres</h2>
                     <div class="sim-slider" data-width="2550" data-height="600" data-animation="350" data-current="false"data-progress="false">   
@@ -141,11 +142,6 @@
             </div>
         </div>
      
-    <!--End Brands-->
-
-
-
     </div>
-
 
 @endsection

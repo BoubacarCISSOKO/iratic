@@ -55,11 +55,13 @@
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
                 <div>
-                    <i class="fa fa-envelope mx-2"></i>
+                  <marquee behavior="" direction="right">
+                  <i class="fa fa-envelope mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none"
                         href="mailto:iratic@iratic.org" style="font-size: 20px; color: #FFF;">iratic@iratic.org</a>
                     <i class="fa fa-phone mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:77 455 34 82" style="font-size: 20px; color: #FFF;"> +221 77 455 34 82 / +221 78 187 49 11</a>
+                  </marquee>
                 </div>
 
                 <!-- <div>

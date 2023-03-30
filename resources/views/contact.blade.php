@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('content')
-
+@include('front.utils')
 <style>
 .border2{
     border-radius: 8px !important;
@@ -15,13 +15,13 @@
            <div class="card-body">
                <div class="row">
 
-                    <div class="col-12 mb-3">
+                    <div class="col-12 mb-3 reveal fade-left">
                         <iframe style="margin-top: 3px;color: #3d4045;width: 100%; 	height: 250px;" 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6512010.61060893!2d-16.1055917811394!3d11.679782147625358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xef3b5e1894322a7%3A0xd52a5de704439275!2s%C3%89cole%20de%20Verma!5e1!3m2!1sfr!2ssn!4v1618835418484!5m2!1sfr!2ssn" ></iframe>
 
                     </div>
                     <!--Grid column-->
-                    <div class="col-md-9 mb-md-0 mb-5">
+                    <div class="col-md-9 mb-md-0 mb-5 reveal fade-left">
                         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                             <!--Grid row-->
@@ -92,7 +92,7 @@
                     <!--Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 text-center reveal fade-right">
                         <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
                                 <p>Dakar, Sénégal</p>

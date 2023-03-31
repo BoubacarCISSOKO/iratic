@@ -273,6 +273,73 @@
 
 </style>
   <body style="background-color:#f3f3f3">
+
+    <div class="w-100 d-flex justify-content-between fixed-top"
+        style="background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(14,49,100,1) 13%, rgba(13,58,110,1) 80%, rgba(3,159,224,1) 100%)!important; 
+        ">
+        <div class="col" style="margin-right: 15px; !important">
+            <marquee behavior="" direction="right">
+            <i class="fa fa-envelope mx-2"  style="font-size: 10px; color: #FFF;"></i>
+            <a class="navbar-sm-brand text-light text-decoration-none"
+                href="mailto:iratic@iratic.org" style="font-size: 10px !important; color: #FFF;">iratic@iratic.org</a>
+            <i class="fa fa-phone mx-2"  style="font-size:10px; color: #FFF;"></i>
+            <a class="navbar-sm-brand text-light text-decoration-none" href="tel:77 455 34 82" style="font-size:10px !important; color: #FFF;"> +221 77 455 34 82  /  +221 78 187 49 11</a>
+            </marquee>
+        </div>
+
+        
+        <div class="col-auto text-right" style="margin-right: 15px; !important">
+            <ul>
+                
+                 <li class="list-inline-item text-center">
+                    <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/IraticOfficiel"><i class="fab fa-facebook-f fa-fw" style="font-size:12px !important"></i></a>
+                </li>
+                 <li class="list-inline-item">
+                    <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/setsall"><i class="fab fa-twitter fa-lg" style="font-size:12px !important"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/in/cabinet-iratic-a428b51aa/"><i class="fab fa-linkedin fa-lg" style="font-size:12px !important"></i></a>
+                </li>
+                
+                
+                <li class="list-inline-item">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Authentication Links -->
+                        @guest
+                            <li class="nav-item dropdown">
+                                <a id="" style="color:white; text-decoration:none; font-weight: bold;"  href="{{ route('login') }}">
+                                    <i class="fa fa-user"  style="font-size: 10px; color: #FFF;margin-right: 15px; !important"></i>
+                                </a>
+                            </li>
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" style="color:white; text-decoration:none; font-weight: bold;margin-right: 25px; !important" class="navbarDarkDropdownMenuLink dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                     {{ Auth::user()->name }}
+                                </a>
+    
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color:#0358c0"  >
+                                    <a class="dropdown-item link-1"style="background:#0358c0 !important; color:#000 !important;"  href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                        document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+    
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
+                </li>
+                
+           </ul>
+    
+        </div>
+
+    </div>
+
+
     @include('front.navbar')
 
     

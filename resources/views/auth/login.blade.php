@@ -63,6 +63,11 @@
                                         {{ __('Mot de pass oublié?') }}
                                     </a>
                                 @endif
+                                
+                                @if (Route::has('register'))
+                                    <a class="btn text-white btn-sm testlog" style="background:#0358c0"  href="{{ route('register') }}">S'inscrire
+                                    </a>
+                                @endif
                             </div>
                         </div>
                     </form>

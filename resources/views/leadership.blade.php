@@ -11,7 +11,7 @@
     <div class="px-4 px-lg-5 onglet" style="margin-top: 115px;">
        <div class="card my-3 py-2 text-center border2">
            <div class="card-body">
-                <h2 class="h5 mt-2 text-center">Leaderships</h2>
+                
                <div class="row">
 
                     <div class="col-12 mb-3 reveal fade-left">
@@ -19,15 +19,17 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-
+                        <h2 class="h5 mt-2 text-center">Leaderships</h2>
+                        <hr>
                             <div class="col-md-12 col-lg-6 pb-2 reveal fade-left">
                                 <div class="h-100 p-5 services-icon-wap shadow">
                                     <p class="h5 m-2" style="text-align: justify;">
-                                    <span style="font-weight: bold; margin-top:2px"> IRATIC, un Fondateur engagé et dévoué :</span> <br>
+                                    <img class="imgdg" src="{{url('_assets/dg 3.png')}}" style=" width: 195px;height: 195px;"  alt="Image"><br>
+                                    <span style="font-weight: bold; margin-top:2px"> IRATIC, un Fondateur engagé et dévoué :</span>  <br>
                                     <hr>
-                                        M. Seth SALLL fondateur d’Africa Policy Lab est un Ingénieur informaticien de formation Spécialiste en 
+                                       <p style="text-align: justify !important;"> M. Seth SALLL fondateur d’IRATIC est un Ingénieur informaticien de formation spécialisé en 
                                         innovation de politiques et services publics (Public policy hacker, public services designer)
-                                        Plus de 25 ans d’expériences dans le public et le privé avec à la clé plusieurs postes stratégiques
+                                        Plus de 25 ans d’expériences dans le public et le privé avec à la clé plusieurs postes stratégiques</p>
                                     <ul style="text-align: justify;">
                                     <li>Ancien Conseiller Technique chargé des questions pédagogiques et des TICE;</li>
                                     <li>Ancien Conseiller Technique en TIC;</li>
@@ -37,10 +39,7 @@
                                     <li>Consultant en open innovation et technologies émergentes;</li>
                                     </ul> 
                                     <span style="font-weight: bold; margin-top:2px;text-align: left;">Des experts associés rompus à la tâche : </span><br>
-                                    <hr>
-                                    <ul style="text-align: justify;">
-                                        <li>Des spécialistes en ingénierie informatique et technologies digitales;</li>
-                                    </ul>
+                                
                                     </p>
 
                                 </div>
@@ -51,6 +50,7 @@
                                     <p class="h5 m-2" style="text-align: justify;">
                                     
                                     <ul style="text-align: justify;">
+                                    <li>Des spécialistes en ingénierie informatique et technologies digitales;</li>
                                         <li>Des statisticiens économistes et spécialistes en sciences de données;</li>
                                         <li>Un spécialiste en élaboration et management de politiques publiques ;</li>
                                         <li>Des designers en services publics;</li>

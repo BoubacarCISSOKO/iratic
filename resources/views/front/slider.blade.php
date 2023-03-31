@@ -11,7 +11,7 @@
         .img-fluid{
         width: 100%;
         height: 130px !important;
-        margin-top:55px !important;
+        margin-top:85px !important;
         }
 
     };

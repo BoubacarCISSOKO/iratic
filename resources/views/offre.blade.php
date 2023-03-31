@@ -12,7 +12,7 @@
         <section id="about">
             <div class="card my-3 py-2 text-center border2 reveal">
             <div class="card-body">
-                    <h2 class="h5 mt-2 text-center">Orientations</h2>
+                   
                     <div class="row">
                         <div class="col-12 mb-3">
                             <img class="img-fluid" src="{{url('_assets/offre.png')}}" alt="Image">
@@ -27,6 +27,8 @@
             <div class="card my-3 py-2 text-center border2 reveal">
             <div class="card-body">
                 <div class="row">
+                        <h2 class="h5 mt-2 text-center">Offres</h2>
+                        <hr>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-12 col-lg-12 pb-2">

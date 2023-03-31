@@ -11,7 +11,7 @@
     <div class="px-4 px-lg-5 onglet" style="margin-top: 115px;">
        <div class="card my-3 py-2 text-center border2">
            <div class="card-body">
-                <h2 class="h5 mt-2 text-center">Orientations</h2>
+                
                <div class="row">
 
                     <div class="col-12 mb-3 reveal fade-left">
@@ -19,7 +19,8 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-
+                            <h2 class="h5 mt-2 text-center">Orientations</h2>
+                            <hr>
                             <div class="col-md-12 col-lg-6 pb-2 reveal fade-left">
                                 <div class="h-100 p-5 services-icon-wap shadow">
                                     <p class="h5 m-2" style="text-align: justify;">

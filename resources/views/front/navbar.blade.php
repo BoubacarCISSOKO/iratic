@@ -1,7 +1,7 @@
 <style>
     @media only screen and (max-width: 1000px) {
         .gbc{
-            margin-top:0px !important;
+            margin-top:40px !important;
         }
 
         .sim-slider{
@@ -15,8 +15,12 @@
         }
 
         .onglet{
-                margin-top:75px !important;
+                margin-top:105px !important;
             }
+            .imgdg{
+             width: 150px !important;
+            height: 150px !important;
+        }
 
     };
     .navbar-nav{
@@ -49,86 +53,6 @@
     }
 
   </style>
-  <!-- Start Top Nav -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block fixed-top" id="templatemo_nav_top"
-        style="background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(14,49,100,1) 13%, rgba(13,58,110,1) 80%, rgba(3,159,224,1) 100%)!important">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                  <marquee behavior="" direction="right">
-                  <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none"
-                        href="mailto:iratic@iratic.org" style="font-size: 20px; color: #FFF;">iratic@iratic.org</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:77 455 34 82" style="font-size: 20px; color: #FFF;"> +221 77 455 34 82 / +221 78 187 49 11</a>
-                  </marquee>
-                </div>
-
-                <!-- <div>
-                    <a class="navbar-sm-brand text-light text-decoration-none gradient-text" href="#">
-                    Vous êtes acheteur ? Découvrez notre choix en maisons, appartements et terrains sur notre site.
-                    </a>
-
-                </div> -->
-
-              
-                <div class="col-auto text-right">
-                    <ul class="list-inline footer-icons">
-                        <li class="list-inline-item text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-fw" style="font-size:12px !important"></i></a>
-                        </li>
-                        <li class="list-inline-item text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg" style="font-size:12px !important"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg" style="font-size:12px !important"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg" style="font-size:12px !important"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <ul class="navbar-nav ms-auto">
-                                    <!-- Authentication Links -->
-                                    @guest
-                                        @if (Route::has('login'))
-                                            <li class="nav-item">
-                                                <a class="btn text-white btn-sm testlog mr-2" style="background:#0358c0" href="{{ route('login') }}">Se connecter</a>
-                                            </li>
-                                        @endif
-            
-                                        @if (Route::has('register'))
-                                            <li class="nav-item">
-                                                <a class="btn text-white btn-sm testlog" style="background:#0358c0" href="{{ route('register') }}">S'inscrire</a>
-                                            </li>
-                                        @endif
-                                    @else
-                                        <li class="nav-item dropdown">
-                                            <a id="navbarDropdown" style="color:white; text-decoration:none; font-weight: bold;" class="navbarDarkDropdownMenuLink dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                                {{ Auth::user()->name }}
-                                            </a>
-            
-                                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color:#0358c0"  >
-                                                <a class="dropdown-item"style="color:#000;"  href="{{ route('logout') }}"
-                                                   onclick="event.preventDefault();
-                                                                 document.getElementById('logout-form').submit();">
-                                                    {{ __('Logout') }}
-                                                </a>
-            
-                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                                    @csrf
-                                                </form>
-                                            </div>
-                                        </li>
-                                    @endguest
-                                </ul>
-                        </li>
-                       
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </nav>
 
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top mb-15 gbc" style="margin-top: 35px;color: #0358c0;">
@@ -172,7 +96,7 @@
                     <li class="nav-item link-1 dropdown">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            Africa Policy Lab
+                            Policy Lab
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
@@ -192,7 +116,7 @@
                     <li class="nav-item link-1 dropdown">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            Africa Policy Academy
+                            Policy Academy
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
@@ -212,7 +136,7 @@
                     <li class="nav-item link-1 dropdown link-1">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            Africa Local Hack
+                            Local Hack
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>

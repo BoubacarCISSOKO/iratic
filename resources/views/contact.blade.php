@@ -99,10 +99,10 @@
                             </li>
 
                             <li><i class="fas fa-phone"></i>
-                                <p>+221 77 455 34 82 / +221 78 187 49 11</p>
+                                <p>33 840 09 39 / +221 77 455 34 82 / +221 78 187 49 11</p>
                             </li>
                             <li><i class="fas fa-envelope"></i>
-                                <p>iratic@iratic.org</p>
+                                <p>iratic@iratic.org / afpolab@gmail.com</p>
                             </li>
                         </ul>
                     </div>

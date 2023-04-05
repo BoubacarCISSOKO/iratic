@@ -10,7 +10,7 @@
             <div class="row">
  
                 <div class="col-md-2 pt-3">
-                    <h3 class="h2 text-white border-bottom pb-3 border-white logo" style="font-size:15px !important">IRATIC</h3>
+                    <h3 class="h2 text-white border-bottom pb-3 border-white" style="font-size:15px !important">IRATIC</h3>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <a class="text-decoration-none" href="{{route('a-propos')}}">À propos</a>
@@ -34,58 +34,51 @@
                 </div>
 
                 <div class="col-md-2 pt-3">
-                    <h3 class="h2 text-white border-bottom pb-3 border-white logo" style="font-size:15px !important">Policy Lab</h3>
+                    <h3 class="h2 text-white border-bottom pb-3 border-white" style="font-size:15px !important">Policy Hack</h3>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
-                            <a class="text-decoration-none" href="#">Apercu </a>
+                            <a class="text-decoration-none" href="{{route('policyhack.apercu')}}">Aperçu </a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Projets </a>
+                            <a class="text-decoration-none" href="{{route('policyhack.acteur')}}">Acteurs </a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Hôtes </a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Partenaires </a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Programmes</a>
+                            <a class="text-decoration-none" href="{{route('policyhack.partenaire')}}">Partenaires </a>
                         </li>
                     </ul>
                 </div>
 
 
-                <div class="col-md-3 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white logo" style="font-size:15px !important">Policy Accademy</h2>
+                <div class="col-md-2 pt-3">
+                    <h2 class="h2 text-white border-bottom pb-3 border-white" style="font-size:15px !important">Policy Accademy</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
-                            <a class="text-decoration-none" href="#">Apercu</a>
+                            <a class="text-decoration-none" href="{{route('policyaccademy.policyHackathon')}}">Policy Hackathon</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Offre</a>
+                            <a class="text-decoration-none" href="{{route('policyaccademy.designthinking')}}">Design Thinking</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Univ/Inst</a>
+                            <a class="text-decoration-none" href="{{route('policyaccademy.management')}}">Management Agile</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Partenaires</a>
+                            <a class="text-decoration-none" href="#">Policy Design</a>
                         </li>
                       
                     </ul>
                 </div>
 
                 <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white logo"style="font-size:15px !important">Local Hack</h2>
+                    <h2 class="h2 text-white border-bottom pb-3 border-white"style="font-size:15px !important">Local Hack</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Apercu</a></li>
+                        <li><a class="text-decoration-none" href="#">Aperçu</a></li>
                         <li><a class="text-decoration-none" href="#">Projets</a></li>
-                        <li><a class="text-decoration-none" href="#">Hôtes</a></li>
                         <li><a class="text-decoration-none" href="#">Partenaires</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-3 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white logo"style="font-size:15px !important">Ressources</h2>
+                <div class="col-md-2 pt-3">
+                    <h2 class="h2 text-white border-bottom pb-3 border-white"style="font-size:15px !important">Ressources</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <a class="text-decoration-none" href="#">Playbooks</a>
@@ -100,13 +93,8 @@
                     </ul>
                 </div>
 
-            </div>
-
-            <div class="row text-light mb-4" style="text-align: center;">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-white"></div>
-                </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-2 pt-3">
+                    <h2 class="h2 text-white border-bottom pb-3 border-white"style="font-size:15px !important">Suivez-nous!</h2>
                     <ul class="list-inline text-left footer-icons">
                         <li class="list-inline-item border border-light rounded-circle text-center">
                             <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/IraticOfficiel"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
@@ -119,8 +107,15 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-8 col-lg-8">
-                <ul id="breadcrumb">
+
+            </div>
+
+            <div class="row text-light mb-4" style="text-align: center;">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-white"></div>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                        <ul id="breadcrumb">
                             <li><a href="#"><i class="fa fa-info-circle"></i> Pour plus de ressources ?</a></li>
                             <li><a href="{{ route('login') }}"><i class="fa fa-user"></i> Connectez-vous !</a></li>
                            

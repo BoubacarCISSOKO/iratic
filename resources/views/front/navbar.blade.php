@@ -96,20 +96,17 @@
                     <li class="nav-item link-1 dropdown">
                         <a class="nav-link dropdown-toggle link-1" href="#about-us" id="navbarDarkDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #0358c0;">
-                            Policy Lab
+                            Policy Hack 
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Apercu</a>
+                                <a class="dropdown-item link-1" href="{{route('policyhack.apercu')}}" style="color: #0358c0;">Aperçu</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Projets</a>
+                                <a class="dropdown-item link-1" href="{{route('policyhack.acteur')}}" style="color: #0358c0;">Acteurs</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Hotes </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>
+                                <a class="dropdown-item link-1" href="{{route('policyhack.partenaire')}}" style="color: #0358c0;">Partenaires</a>
                             </li>
                         </ul>
                     </li>
@@ -120,16 +117,16 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Apercu</a>
+                                <a class="dropdown-item link-1" href="{{route('policyaccademy.policyHackathon')}}" style="color: #0358c0;">Policy Hackathon</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Offre</a>
+                                <a class="dropdown-item link-1" href="{{route('policyaccademy.designthinking')}}" style="color: #0358c0;">Design Thinking</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Uni/Inst/Entr</a>
+                                <a class="dropdown-item link-1" href="{{route('policyaccademy.management')}}" style="color: #0358c0;">Management Agile</a>
                             </li>
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Policy Design</a>
                             </li>
                         </ul>
                     </li>
@@ -140,13 +137,10 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Apercu</a>
+                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Aperçu</a>
                             </li>
                             <li>
                                 <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Projets</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Hotes</a>
                             </li>
                             <li>
                                 <a class="dropdown-item link-1" href="#about-us" style="color: #0358c0;">Partenaires</a>

@@ -265,6 +265,19 @@
     p{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     }
+
+    ul{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+
+    li{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+
+    span{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+
     h1,h2,h3{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
         font-weight: bold !important;
@@ -281,9 +294,9 @@
             <marquee behavior="" direction="right">
             <i class="fa fa-envelope mx-2"  style="font-size: 10px; color: #FFF;"></i>
             <a class="navbar-sm-brand text-light text-decoration-none"
-                href="mailto:iratic@iratic.org" style="font-size: 10px !important; color: #FFF;">iratic@iratic.org</a>
+                href="mailto:iratic@iratic.org" style="font-size: 10px !important; color: #FFF;">iratic@iratic.org / afpolab@gmail.com</a>
             <i class="fa fa-phone mx-2"  style="font-size:10px; color: #FFF;"></i>
-            <a class="navbar-sm-brand text-light text-decoration-none" href="tel:77 455 34 82" style="font-size:10px !important; color: #FFF;"> +221 77 455 34 82  /  +221 78 187 49 11</a>
+            <a class="navbar-sm-brand text-light text-decoration-none" href="tel:77 455 34 82" style="font-size:10px !important; color: #FFF;"> 33 840 09 39 / +221 77 455 34 82  /  +221 78 187 49 11</a>
             </marquee>
         </div>
 

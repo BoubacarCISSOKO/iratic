@@ -13,23 +13,23 @@
 
                     <div class="col-md-6 col-lg-4 pb-2">
                         <div class="h-100 p-5 services-icon-wap shadow">
-                            <h3 class="h5 mt-2 text-center">Africa Policy Lab</h3>
+                            <h3 class="h5 mt-2 text-center">Policy Hack </h3>
                             <p>Amener l’innovation au cœur des sphères publiques en Afrique</p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="#!">En savoir +</a>
+                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyhack.acceuil')}}">En savoir +</a>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4 pb-2">
                         <div class="h-100 p-5 services-icon-wap shadow">
-                            <h3 class="h5 mt-2 text-center">Africa Policy Academy</h3>
+                            <h3 class="h5 mt-2 text-center">Policy Academy</h3>
                             <p>Fournir l’expertise multidisciplinaire permettant de comprendre le présent, d’imaginer l'avenir et d’obtenir l'impact politique souhaité en Afrique.</p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="#!">En savoir +</a>
+                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyaccademy.acceuil')}}">En savoir +</a>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4 pb-2">
                         <div class="h-100 p-5 services-icon-wap shadow">
-                            <h3 class="h5 mt-2 text-center">Africa Local Hack</h3>
+                            <h3 class="h5 mt-2 text-center">Local Hack</h3>
                             <p>Faire de chaque territoire un véritable un hub d’innovation </p>
                             <a class="btn text-white btn-sm test" style="background:#0358c0" href="#!">En savoir +</a>
                         </div>

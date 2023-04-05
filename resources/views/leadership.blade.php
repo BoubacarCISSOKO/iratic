@@ -38,17 +38,15 @@
                                     <li>Formateur associé dans plusieurs universités et instituts de formation;</li>
                                     <li>Consultant en open innovation et technologies émergentes;</li>
                                     </ul> 
-                                    <span style="font-weight: bold; margin-top:2px;text-align: left;">Des experts associés rompus à la tâche : </span><br>
-                                
                                     </p>
-
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-12 col-lg-6 pb-2 reveal fade-right">
                                 <div class="h-100 p-5 services-icon-wap shadow">
+                                <p style="text-align: justify;font-weight: bold !important;">Des experts associés rompus à la tâche :</p>
                                     <p class="h5 m-2" style="text-align: justify;">
-                                    
                                     <ul style="text-align: justify;">
                                     <li>Des spécialistes en ingénierie informatique et technologies digitales;</li>
                                         <li>Des statisticiens économistes et spécialistes en sciences de données;</li>
@@ -59,9 +57,8 @@
                                         <li>Des conférences, d'ateliers et des masterclass en ligne;</li>
                                     
                                     </ul>
-                                    <span style="font-weight: bold; margin-top:2px">De potentiels partenaires</span>
-                                    <hr>
-                                    Africa Policy Lab adopte une démarche ouverte et partenariale associant divers partenaires parmi lesquels :
+                                    <p style="text-align: justify;font-weight: bold !important;">De potentiels partenaires</p>
+                                    <p style="text-align: justify;">Africa Policy Lab adopte une démarche ouverte et partenariale associant divers partenaires parmi lesquels :</p>
                                     <ul style="text-align: justify;">
                                         <li>Les pouvoirs publics africains;</li>
                                         <li>Le secteur privé et la société civile africains;</li>

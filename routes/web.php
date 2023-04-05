@@ -43,6 +43,47 @@ Route::get('/leadership', function () {
 Route::get('/offre', function () {
     return view('offre');
 })->name('offre');
+
+// policyhack section
+Route::get('/policyhack/acceuil', function () {
+    return view('policyhack.hackathon.acceuil');
+})->name('policyhack.acceuil');
+
+Route::get('/policyhack/apercu', function () {
+    return view('policyhack.hackathon.apercu');
+})->name('policyhack.apercu');
+
+Route::get('/policyhack/acteur', function () {
+    return view('policyhack.hackathon.acteur');
+})->name('policyhack.acteur');
+
+Route::get('/policyhack/partenaire', function () {
+    return view('policyhack.hackathon.partenaire');
+})->name('policyhack.partenaire');
  
+
+Route::get('/policyhack/defi', function () {
+    return view('policyhack.hackathon.defi');
+})->name('policyhack.defi');
+
+
+// policyAcademy section
+
+Route::get('/policyaccademy/acceuil', function () {
+    return view('policyAcademy.acceuil');
+})->name('policyaccademy.acceuil');
+
+Route::get('/policyaccademy/policyHackathon', function () {
+    return view('policyAcademy.policyHackathon');
+})->name('policyaccademy.policyHackathon');
+
+
+Route::get('/policyaccademy/designthinking', function () {
+    return view('policyAcademy.designthinking');
+})->name('policyaccademy.designthinking');
+
+Route::get('/policyaccademy/management', function () {
+    return view('policyAcademy.management');
+})->name('policyaccademy.management');
 
 

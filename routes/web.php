@@ -17,12 +17,29 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::get('/admindashbord', [App\Http\Controllers\HomeController::class, 'admindashbord'])->name('admindashbord');
+
+//creation d'un article
+Route::get('/creation', [App\Http\Controllers\ArticleController::class, 'index'])->name('article.create');
+
+
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/globalbusinessconulting_2023_AB', [App\Http\Controllers\HomeController::class, 'admindashbord'])->name('globalbusinessconulting_2023_AB');
 
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
+
+//cotisation
+Route::middleware('auth')->group(function () {
+    Route::get('/cotisation', [App\Http\Controllers\HomeController::class,'cotisation_index'])->name('cotisation.index');
+    Route::post('cotisation/ajouter', [App\Http\Controllers\HomeController::class,'cotisation_store'])->name('cotisation.store');
+    Route::get('cotisation/confirmation', [App\Http\Controllers\HomeController::class,'ccotisation_onfirmation'])->name('cotisation.confirmation');
+});
+
+
+Route::get('detail/article', [App\Http\Controllers\HomeController::class,'detail_article'])->name('detail.article');
+
+
 
 Route::get('/a-propos', function () {
     return view('a-propos');

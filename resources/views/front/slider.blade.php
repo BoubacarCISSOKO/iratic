@@ -27,20 +27,20 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="{{url('_assets/5555T.png')}}" alt="Image">
+                    <img class="img-fluid" src="{{url('_assets/dem bb.png')}}" alt="Image">
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="{{url('_assets/666 T.png')}}"  alt="Image">
+                    <img class="img-fluid" src="{{url('_assets/dem bbb.png')}}"  alt="Image">
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="{{url('_assets/5555T.png')}}" alt="Image">
+                    <img class="img-fluid" src="{{url('_assets/ds12.PNG')}}" alt="Image">
                 </div>
             </div>
             <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-                <i class="fas fa-chevron-left"></i>
+                <!-- <i class="fas fa-chevron-left"></i> -->
             </a>
             <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-                <i class="fas fa-chevron-right"></i>
+                <!-- <i class="fas fa-chevron-right"></i> -->
             </a>
         </div>
         <!-- End Banner Hero -->

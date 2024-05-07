@@ -2,99 +2,49 @@
  <style>
     .border-wdernier{
         border-radius: 1px !important;
-        border-top: 10px solid #FFF !important;
+        /* border-top: 1px solid #FFF !important; */
     }
  </style>
-  <footer class="bg-dark mt-2" id="tempaltemo_footer" style="background: linear-gradient(90deg, rgba(14,49,100,1) 0%, rgba(14,49,100,1) 16%, rgba(12,65,118,1) 34%, rgba(8,114,173,1) 47%, rgba(10,88,143,1) 59%, rgba(12,75,129,1) 86%, rgba(3,159,224,1) 100%)!important">
+<footer class="bg-dark mt-2" id="tempaltemo_footer" style="background: #3d4045!important">
         <div class="container">
             <div class="row">
  
-                <div class="col-md-2 pt-3">
-                    <h3 class="h2 text-white border-bottom pb-3 border-white" style="font-size:15px !important">IRATIC</h3>
+            <div class="col-md-4 pt-3">
+                    <h2 class="h2 text-light border-bottom pb-3 border-white">A PROPOS</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
-                            <a class="text-decoration-none" href="{{route('a-propos')}}">À propos</a>
+                            <a class="text-decoration-none" href="#">DSD</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="{{route('oriantations')}}">Orientations</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="{{route('dispositif')}}">Dispositifs</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="{{route('offre')}}">Offres</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="{{route('leadership')}}">Leaderships</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Programmes</a>
+                            <a class="text-decoration-none" href="#">Nos Services</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-md-2 pt-3">
-                    <h3 class="h2 text-white border-bottom pb-3 border-white" style="font-size:15px !important">Policy Hack</h3>
+                <div class="col-md-4 pt-3">
+                    <h2 class="h2 text-light border-bottom pb-3 border-white">NOUS CONTACTER</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <a class="text-decoration-none" href="{{route('policyhack.apercu')}}">Aperçu </a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="{{route('policyhack.acteur')}}">Acteurs </a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="{{route('policyhack.partenaire')}}">Partenaires </a>
-                        </li>
-                    </ul>
-                </div>
 
-
-                <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white" style="font-size:15px !important">Policy Accademy</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <a class="text-decoration-none" href="{{route('policyaccademy.policyHackathon')}}">Policy Hackathon</a>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                            <a class="text-decoration-none" href="#">Paris, France</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="{{route('policyaccademy.designthinking')}}">Design Thinking</a>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="#">+221 77 040 49 87
+                        / +33 6 03 33 06 64 </a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="{{route('policyaccademy.management')}}">Management Agile</a>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="#">dsd2024@gmail.com</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none" href="#">Policy Design</a>
-                        </li>
-                      
-                    </ul>
-                </div>
-
-                <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white"style="font-size:15px !important">Local Hack</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Aperçu</a></li>
-                        <li><a class="text-decoration-none" href="#">Projets</a></li>
-                        <li><a class="text-decoration-none" href="#">Partenaires</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white"style="font-size:15px !important">Ressources</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <a class="text-decoration-none" href="#">Playbooks</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Mentors </a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Consultants </a>
-                        </li>
                        
                     </ul>
                 </div>
 
-                <div class="col-md-2 pt-3">
-                    <h2 class="h2 text-white border-bottom pb-3 border-white"style="font-size:15px !important">Suivez-nous!</h2>
+
+                <div class="col-md-4 pt-3">
+                    <h2 class="h2 text-light border-bottom pb-3 border-white">Suivez-nous!</h2>
                     <ul class="list-inline text-left footer-icons">
                         <li class="list-inline-item border border-light rounded-circle text-center">
                             <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/IraticOfficiel"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
@@ -116,26 +66,53 @@
                 </div>
                 <div class="col-md-12 col-lg-12">
                         <ul id="breadcrumb">
-                            <li><a href="#"><i class="fa fa-info-circle"></i> Pour plus de ressources ?</a></li>
-                            <li><a href="{{ route('login') }}"><i class="fa fa-user"></i> Connectez-vous !</a></li>
                            
+                            <li>
+                            @guest
+                                    <li class="nav-item dropdown">
+                                        <a id="" style="color:white; text-decoration:none; font-weight: bold;"  href="{{ route('login') }}">
+                                            <i class="fa fa-user"  style="font-size: 10px; color: #000;margin-right: 15px; !important"></i>
+                                        </a>
+                                    </li>
+                                @else
+                                    <li class="nav-item dropdown">
+                                        <a id="navbarDropdown" style="text-decoration:none; font-weight: bold;margin-right: 25px; !important" class="navbarDarkDropdownMenuLink dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                            {{ Auth::user()->name }}
+                                        </a>
+            
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color:#1d242d"  >
+                                            <a class="dropdown-item link-1"style="background:white !important; color:#000 !important;"  href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                                document.getElementById('logout-form').submit();">
+                                                {{ __('Logout') }}
+                                            </a>
+            
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                                @csrf
+                                            </form>
+                                        </div>
+                                    </li>
+                                @endguest
+                            </li>
+                           
+                            <li><a href="{{route('cotisation.index')}}"><i class="fa fa-info-circle"></i> Ma Cotisation</a></li>
                         </ul>
                 </div>
             </div>
         </div>
 
-        <div class="w-100 border-wdernier" style="background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(14,49,100,1) 13%, rgba(13,58,110,1) 80%, rgba(3,159,224,1) 100%)!important;">
+        <div class="w-100 border-wdernier" style="background: #1d242d!important;">
             <div class="container">
                 <div class="row pt-1">
                     <div class="col-12 text-center">
                         <marquee behavior="" direction="top" style="font-size: 20px; color: #FFF">
-                            IRATIC & sa filiale APLI © 2023, réalisé avec <i class="fa fa-heart mx-2" style="color:red;"></i> par l'Eiquipe Tech - Tous droits réservés. 
+                           Dembancane Solidarite Development © 2023, réalisé avec <i class="fa fa-heart mx-2" style="color:red;"></i> par l'Eiquipe Tech - Tous droits réservés. 
                         </marquee>
                     </div>
                 </div>
             </div>
         </div>
 
-    </footer>
-    <!-- End Footer -->
+</footer>
+<!-- End Footer -->
 

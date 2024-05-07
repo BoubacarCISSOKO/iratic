@@ -5,7 +5,7 @@
 <style>
 .border2{
     border-radius: 8px !important;
-  border-bottom: 10px solid #0358c0 !important;
+  border-bottom: 10px solid #1d242d !important;
 }
 </style>
     <div class="px-4 px-lg-5 onglet" style="margin-top: 115px;">
@@ -33,7 +33,7 @@
                                         <div class="h-100 p-5 services-icon-wap shadow">
                                             <h3 class="h5 mt-2 text-center">Aperçu </h3>
                                             <p>HACKATHON DE POLITIQUE:</p>
-                                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyhack.apercu')}}">En savoir +</a>
+                                            <a class="btn text-white btn-sm test" style="background:#1d242d" href="{{route('policyhack.apercu')}}">En savoir +</a>
                                         </div>
                                     </div>
 
@@ -41,7 +41,7 @@
                                         <div class="h-100 p-5 services-icon-wap shadow">
                                             <h3 class="h5 mt-2 text-center">Acteurs</h3>
                                             <p>Appel à défis</p>
-                                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyhack.acteur')}}">En savoir +</a>
+                                            <a class="btn text-white btn-sm test" style="background:#1d242d" href="{{route('policyhack.acteur')}}">En savoir +</a>
                                         </div>
                                     </div>
 
@@ -49,7 +49,7 @@
                                         <div class="h-100 p-5 services-icon-wap shadow">
                                             <h3 class="h5 mt-2 text-center">Partenaires</h3>
                                             <p>Appel à partenariat</p>
-                                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyhack.partenaire')}}">En savoir +</a>
+                                            <a class="btn text-white btn-sm test" style="background:#1d242d" href="{{route('policyhack.partenaire')}}">En savoir +</a>
                                         </div>
                                     </div>
 

@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class="container" style="margin-top: 100px;">
+<div class="container" style="margin-top: 125px;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -13,7 +13,7 @@
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Nom') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Nom & Prénom') }}</label>
 
                             <div class="col-md-6">
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -64,7 +64,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-12 offset-md-4">
-                                <button type="submit" class="btn btn-primary testlog" style="background:#0358c0; color:white">
+                                <button type="submit" class="btn btn-primary btn-sm" style="background:#1d242d; color:white">
                                     {{ __('S\'inscrire') }}
                                 </button>
                             </div>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>IRATIC</title>
+<title>DSD</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -53,7 +53,7 @@
         
         .card1{
             
-            border-top-color: 15px #0358c0 !important ;
+            border-top-color: 15px #1d242d !important ;
             border-radius: 15px !important;
         }
 
@@ -102,14 +102,14 @@
         margin: 3px;
         }
         .link-1:hover {
-            background-color: #039fe0;
+            background-color: #1d242d;
             color: #FFF !important;
             margin: 3px;
         }
 
         .border1{
             border-radius: 8px;
-        border-bottom: 10px solid #0358c0;
+        border-bottom: 10px solid #1d242d;
         }
         
         </style>
@@ -161,7 +161,7 @@
         }
 
         #breadcrumb li a {
-            color: #0358c0 ;
+            color: #1d242d ;
             display: block;
             background: #FFF;
             text-decoration: none;
@@ -234,7 +234,7 @@
         }
 
         #breadcrumb li a:hover {
-            background-color: #0358c0;
+            background-color: #1d242d;
         }
 
         #breadcrumb li a:hover:before {
@@ -247,13 +247,28 @@
         }
 
         #breadcrumb li a:active {
-            background-color: #0358c0;
+            background-color: #1d242d;
         }
 
         #breadcrumb li a:active:before {
             border-color: #FFF;
             border-left-color:#FFF;
         }
+
+        .btn-sm:hover{
+            color: #1d242d !important;
+
+        }
+
+        .btn-smc{
+        background-color: #1d242d !important;
+        color:#FFFFFF !important;
+        }
+
+        .btn-smc:hover{
+                color:#FFFFFF !important;
+
+            }
 
         #breadcrumb li a:active:after {
             border-left-color:#FFF;
@@ -288,15 +303,16 @@
   <body style="background-color:#f3f3f3">
 
     <div class="w-100 d-flex justify-content-between fixed-top"
-        style="background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(14,49,100,1) 13%, rgba(13,58,110,1) 80%, rgba(3,159,224,1) 100%)!important; 
+        style="background: #1d242d!important; 
         ">
         <div class="col" style="margin-right: 15px; !important">
             <marquee behavior="" direction="right">
             <i class="fa fa-envelope mx-2"  style="font-size: 10px; color: #FFF;"></i>
             <a class="navbar-sm-brand text-light text-decoration-none"
-                href="mailto:iratic@iratic.org" style="font-size: 10px !important; color: #FFF;">iratic@iratic.org / afpolab@gmail.com</a>
+                href="mailto:iratic@iratic.org" style="font-size: 10px !important; color: #FFF;">dsd2024@gmail.com</a>
             <i class="fa fa-phone mx-2"  style="font-size:10px; color: #FFF;"></i>
-            <a class="navbar-sm-brand text-light text-decoration-none" href="tel:77 455 34 82" style="font-size:10px !important; color: #FFF;"> 33 840 09 39 / +221 77 455 34 82  /  +221 78 187 49 11</a>
+            <a class="navbar-sm-brand text-light text-decoration-none" href="tel:77 455 34 82" style="font-size:10px !important; color: #FFF;"> +221 77 040 49 87
+                        / +33 6 03 33 06 64</a>
             </marquee>
         </div>
 
@@ -330,8 +346,8 @@
                                      {{ Auth::user()->name }}
                                 </a>
     
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color:#0358c0"  >
-                                    <a class="dropdown-item link-1"style="background:#0358c0 !important; color:#000 !important;"  href="{{ route('logout') }}"
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color:#1d242d"  >
+                                    <a class="dropdown-item link-1"style="background:red !important; color:#000 !important;"  href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                         document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
@@ -343,6 +359,7 @@
                                 </div>
                             </li>
                         @endguest
+                        
                     </ul>
                 </li>
                 

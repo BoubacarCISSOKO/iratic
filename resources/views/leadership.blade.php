@@ -5,7 +5,7 @@
 <style>
 .border2{
     border-radius: 8px !important;
-  border-bottom: 10px solid #0358c0 !important;
+  border-bottom: 10px solid #1d242d !important;
 }
 </style>
     <div class="px-4 px-lg-5 onglet" style="margin-top: 115px;">

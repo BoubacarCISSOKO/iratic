@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class="container" style="margin-top: 100px;">
+<div class="container" style="margin-top: 125px;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -52,7 +52,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-12 offset-md-4">
-                                <button type="submit" class="btn btn-primary testlog" style="background:#0358c0; color:white">
+                                <button type="submit" class="btn btn-primary btn-sm" style="background:#1d242d; color:white">
                                     {{ __('Reset Password') }}
                                 </button>
                             </div>

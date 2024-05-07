@@ -6,139 +6,306 @@
 
     <div class="px-4 px-lg-5" style="margin-top: 5px;">
        
-
         <div class="card my-3 py-2 text-center border1 reveal fade-right">
             <div class="card-body">
                 <div class="row">
+                <div class="col-md-6 col-lg-9 pb-2">
+                        <div class="h-100">
+                            <h3 style="text-align: left !important;">Recherche</h3>
+                            <div class="card">
+                                <div class="row card-body">
+                                    <div class="col">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Rechercher un article</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
 
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="h-100 p-5 services-icon-wap shadow">
-                            <h3 class="h5 mt-2 text-center">Policy Hack </h3>
-                            <p>Amener l’innovation au cœur des sphères publiques en Afrique</p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyhack.acceuil')}}">En savoir +</a>
+                                    
+
+                                    <div class="col">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn text-white btn-sm services-icon-wap shadow" type="button" style="background:#1d242d">RECHERCHER</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="h-100 p-5 services-icon-wap shadow">
-                            <h3 class="h5 mt-2 text-center">Policy Academy</h3>
-                            <p>Fournir l’expertise multidisciplinaire permettant de comprendre le présent, d’imaginer l'avenir et d’obtenir l'impact politique souhaité en Afrique.</p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyaccademy.acceuil')}}">En savoir +</a>
+                    <div class="col-md-6 col-lg-3 pb-2">
+                        <h3 class="font-weight-light">Besoin d’assistance? </h3>
+                        <p style="text-align: justify;color:#000; font-size: 12px !important;">Vous êtes acheteur ? Découvrez notre choix en maisons, appartements et terrains sur notre site.
+                        Vous souhaitez bénéficier de nos prestations de location ou gérance ?
+                        </p>
+                    <div><a class="btn text-white btn-sm services-icon-wap shadow" style="background:#1d242d" href="{{route('contact')}}">Contactez-nous!</a>
+                    </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="card my-3 py-2 text-center border1 reveal fade-top">
+            <h2 class="font-weight-light">Nos articles </h2>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <div class="w-100 my-1 border-top border-white"></div>
+                    </div>
+                   
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 1</h2>
+                           
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="{{route('detail.article')}}">En savoir +</a>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 pb-2">
-                        <div class="h-100 p-5 services-icon-wap shadow">
-                            <h3 class="h5 mt-2 text-center">Local Hack</h3>
-                            <p>Faire de chaque territoire un véritable un hub d’innovation </p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="#!">En savoir +</a>
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 2</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 3</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 4</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 5</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 6</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 1</h2>
+                           
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 2</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 3</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 4</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 5</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-2 pb-2">
+                        <div class="h-100 py-5 services-icon-wap shadow">
+                            <h2 class="h5 mt-4 text-center">Article 6</h2>
+                            <a class="btn text-white btn-sm" style="background:#1d242d" href="#!">En savoir +</a>
                         </div>
                     </div>
 
                    
                 </div>
-
             </div>
-        </div>
 
-        <div id="#about-us" class="card col-md-12 col-lg-12 border1 reveal fade-left">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                    <a class="page-link">Précédent</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#">Suivant</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="#about-us" class="card mb-2 col-md-12 col-lg-12 border1 reveal fade-left">
             <div class="h-100 p-5 shadow">
                 <h2 class="font-weight-light">A propos</h2>
                 <div class="row">
                     <div class="col-lg-7 mb-3">
-                        <img class="gbc-image" src="{{url('_assets/layer_00055.png')}}" style=" border-radius: 10px !important;" alt="Image">
+                        <img class="gbc-image" src="{{url('_assets/ds12.PNG')}}" style=" border-radius: 10px !important;" alt="Image">
                     </div>
                     <div class="col-lg-5">
                         <p style="text-align: justify;">
-                        L’Institut de Recherches Appliquées en Technologies, Innovation 
-                        et Compétitivité est un laboratoire d’innovation de politiques, 
-                        un mutant du développement qui a pour missions de : <br>
-                        o	Rapprocher l'innovation du cœur des organisations comme 
-                            principale clé de succès intégrée dans les principaux 
-                            processus d’élaboration des politiques <br>
-                        o	Favoriser le changement de culture et de paradigme via une 
-                            boîte à outils et un cadre de collaboration et d’interactions 
-                            entre le niveau stratégique, le niveau opérationnel, les partenaires et citoyens. 
-
-                            <a class="btn test" href="{{route('a-propos')}}" style="background: #0358c0;color:#FFF">Lire plus ...</a>
+                            A propos de Dembancane Solidarite Développement
+                            <a class="btn test" href="{{route('a-propos')}}" style="background: #1d242d;color:#FFF">Lire plus ...</a>
                         </p>
                       
                     </div>
                 </div>
             </div>
         </div>
-      
-        <div class="card my-3 py-2 text-center border1 reveal fade-right">
-            <h2 class="font-weight-light">IRATIC ACTIVITES </h2>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-12 mb-3">
-                        <div class="w-100 my-1 border-top border-white"></div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 pb-2">
-                        <div class="h-100 py-5 services-icon-wap shadow">
-                            <h2 class="h5 mt-2 text-center">Orientations</h2>
-                            <p class="m-2">IRATIC, c’est cinq (05) axes majeurs pour une approche agile, flexible et itérative : <br>
-                                Le diagnostic de politiques pour identifier et définir les problèmes et défis de politique,
-                            </p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('oriantations')}}">En savoir +</a>
-                        </div>
-                    </div>
 
-                    <div class="col-md-6 col-lg-6 pb-2">
-                        <div class="h-100 py-5 services-icon-wap shadow">
-                            <h2 class="h5 mt-2 text-center">Dispositifs</h2>
-                            <p class="m-2">Un dispositif d’expertise, de compétences et ressources entièrement dédié : <br>
-                                Un espace neutre dédié ouvert aux décideurs politiques pour  collaborer et dialoguer avec le public et des experts externes ;
-                            </p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('dispositif')}}">En savoir +</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-6 pb-2">
-                        <div class="h-100 py-5 services-icon-wap shadow">
-                            <h2 class="h5 mt-2 text-center">Leaderships</h2>
-                            <p class="m-2">IRATIC, un Fondateur engagé et dévoué : <br>
-                            M. Seth SALLL fondateur d’Africa Policy Lab est un Ingénieur informaticien de formation Spécialiste en 
-                            </p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('leadership')}}">En savoir +</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-6 pb-2">
-                        <div class="h-100 py-5 services-icon-wap shadow">
-                            <h2 class="h5 mt-2 text-center">Programmes</h2>
-                            <p class="m-2">A venir</p>
-                            <a class="btn text-white btn-sm test" style="background:#0358c0" href="#!">En savoir +</a>
-                        </div>
-                    </div>
-
-                   
-                </div>
-
-            </div>
-        </div>
-      
-       
         <div class="card col-md-12 col-lg-12 border1 reveal fade-top">
             <div class="h-100 p-5 shadow">
-                <h2 class="font-weight-light">Nos Offres</h2>
-                    <div class="sim-slider" data-width="2550" data-height="600" data-animation="350" data-current="false"data-progress="false">   
-                        
-                        <div class="sim-slider-slide">
-                            <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="2" data-top="75"><img class="imgslider"src="_assets/1.png" /></div> 
-                            <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="850" data-top="75"><img class="imgslider" src="_assets/2.png" /></div> 
-                            <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="1695" data-top="75"><img class="imgslider"src="_assets/3.png" /></div> 
+                <h2 class="font-weight-light">Nos Projets Réalisés</h2>       
+                <div class="card text-center">
+                    
+                        <div class="col-lg-12 m-auto tempaltemo-carousel pt-2">
+                            <div class="row d-flex flex-row">
+                                <!--Controls-->
+                                <div class="col-1 align-self-center">
+                                    <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
+                                        <i class="text-light fas fa-chevron-left"></i>
+                                    </a>
+                                </div>
+                                <!--End Controls-->
+
+                                <!--Carousel Wrapper-->
+                                <div class="col">
+                                    <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
+                                        <!--Slides-->
+                                        <div class="carousel-inner product-links-wap" role="listbox">
+
+                                            <!--First slide-->
+                                            <div class="carousel-item active">
+                                                <div class="row">
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds11.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds12.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds13.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds14.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds15.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds16.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <!--End First slide-->
+
+                                            <!--Second slide-->
+                                            <div class="carousel-item">
+                                                <div class="row">
+                                                <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds11.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds12.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds13.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds14.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds15.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6 col-lg-2 pb-2">
+                                                            <div class="card services-icon-wap shadow" style=" border-radius: 10px !important;">
+                                                            <a class="text-decoration-none" href="#"><img class="gbc-image2" style=" border-radius: 10px !important;" src="{{url('_assets/ds16.PNG')}}"  alt="Image"></a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <!--End Second slide-->
+
+                                        
+
+                                        </div>
+                                        <!--End Slides-->
+                                    </div>
+                                </div>
+                                <!--End Carousel Wrapper-->
+
+                                <!--Controls-->
+                                <div class="col-1 align-self-center">
+                                    <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
+                                        <i class="text-light fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <!--End Controls-->
+                            </div>
                         </div>
-                            
-                        <div class="sim-slider-slide">
-                            <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="2" data-top="75"><img class="imgslider" src="_assets/4.png" /></div> 
-                            <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="850" data-top="75"><img class="imgslider"src="_assets/5.png" /></div> 
-                            <div class="sim-slider-layer" data-effect="rollIn" data-width="690" data-height="500" data-left="1695" data-top="75"><img class="imgslider" src="_assets/6.png" /></div> 
-                        </div>      
-                                
                     </div>
-                    <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('offre')}}">En savoir +</a>
+                </div>
             </div>
         </div>
      

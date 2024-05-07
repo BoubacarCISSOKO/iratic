@@ -5,7 +5,7 @@
 <style>
 .border2{
     border-radius: 8px !important;
-  border-bottom: 10px solid #0358c0 !important;
+  border-bottom: 10px solid #1d242d !important;
 }
 </style>
     <div class="px-4 px-lg-5" style="margin-top: 115px;">
@@ -84,8 +84,14 @@
 
                         </form>
 
+                        <style>
+                             .btn-smt:hover{
+                                    color: #FFFFFF !important;
+
+                                }
+                        </style>
                         <div class="d-grid gap-2 mt-3">
-                            <button class="btn text-white testlog" type="button" style="background:#0358c0">Valider</button>
+                            <button class="btn text-white testlog btn-smt services-icon-wap shadow" type="button" style="background:#1d242d">Valider</button>
                         </div>
                         <div class="status"></div>
                     </div>
@@ -95,14 +101,14 @@
                     <div class="col-md-3 text-center reveal fade-right">
                         <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                <p>Dakar, Sénégal</p>
+                                <p>Paris, France</p>
                             </li>
 
                             <li><i class="fas fa-phone"></i>
-                                <p>33 840 09 39 / +221 77 455 34 82 / +221 78 187 49 11</p>
+                                <p>+221 77 040 49 87 / +33 6 03 33 06 64</p>
                             </li>
                             <li><i class="fas fa-envelope"></i>
-                                <p>iratic@iratic.org / afpolab@gmail.com</p>
+                                <p>dsd2024@gmail.com</p>
                             </li>
                         </ul>
                     </div>

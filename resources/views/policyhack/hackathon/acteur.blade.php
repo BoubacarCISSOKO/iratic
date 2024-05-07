@@ -5,7 +5,7 @@
 <style>
 .border2{
     border-radius: 8px !important;
-  border-bottom: 10px solid #0358c0 !important;
+  border-bottom: 10px solid #1d242d !important;
 }
 </style>
     <div class="px-4 px-lg-5 onglet" style="margin-top: 115px;">
@@ -70,7 +70,7 @@
                                         Soumettez votre proposition en cliquant sur le bouton ci- après
                                        </span>
                                         </p>
-                                        <a class="btn text-white btn-sm test" style="background:#0358c0" href="{{route('policyhack.defi')}}">Soumettre un défi</a>
+                                        <a class="btn text-white btn-sm test" style="background:#1d242d" href="{{route('policyhack.defi')}}">Soumettre un défi</a>
                                     </div>
                                 </div>
                             </div>

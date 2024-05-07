@@ -26,7 +26,26 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function admindashbord()
+    {
+        return view('admin.adminPage');
+    }
+
     public function contact(){
         return view('contact');
     }
+
+
+    public function cotisation_index()
+    {
+       
+        return view('cotisation');
+    }
+
+    public function detail_article()
+    {
+       
+        return view('detailArticle');
+    }
+
 }

@@ -51,7 +51,7 @@ ul {
 }
 
 .text-success {
-    color: #0358c0 !important
+    color: #1d242d !important
 }
 
 .text-light {
@@ -59,7 +59,7 @@ ul {
 }
 
 .bg-dark {
-    background-color: #0358c0 !important
+    background-color: #1d242d !important
 }
 
 .bg-light {
@@ -67,12 +67,12 @@ ul {
 }
 
 .bg-black {
-    background-color: #0358c0 !important
+    background-color: #1d242d !important
 }
 
 .bg-success,
 .btn-success {
-    background-color: #0358c0 !important
+    background-color: #1d242d !important
 }
 
 .btn-success {
@@ -81,7 +81,7 @@ ul {
 
 .pagination .page-link.active,
 .pagination .page-link:hover {
-    background-color: #0358c0;
+    background-color: #1d242d;
     color: #fff
 }
 
@@ -94,11 +94,11 @@ ul {
 }
 
 #templatemo_main_nav a {
-    color: #0358c0
+    color: #1d242d
 }
 
 #templatemo_main_nav a:hover {
-    color: #0358c0
+    color: #1d242d
 }
 
 #templatemo_main_nav .navbar .nav-icon {
@@ -118,7 +118,7 @@ ul {
 }
 
 .shop-top-menu a:hover {
-    color: #0358c0 !important
+    color: #1d242d !important
 }
 
 .product-wap {
@@ -183,12 +183,12 @@ ul {
 
 #template-mo-zay-hero-carousel .carousel-indicators li {
     margin-top: 0px;
-    background-color: #0358c0
+    background-color: #1d242d
 }
 
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-    color: #0358c0 !important;
+    color: #1d242d !important;
     font-size: 2.8em !important
 }
 
@@ -207,7 +207,7 @@ ul {
 }
 
 .services-icon-wap:hover {
-    background: #0358c0
+    background: #1d242d
 }
 
 .leaflet-control,
@@ -243,7 +243,7 @@ ul {
 }
 
 #tempaltemo_footer ul.footer-icons li:hover i {
-    color: #0358c0;
+    color: #1d242d;
     transition: .5s
 }
 

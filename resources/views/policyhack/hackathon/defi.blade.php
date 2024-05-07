@@ -5,7 +5,7 @@
 <style>
 .border2{
     border-radius: 8px !important;
-  border-bottom: 10px solid #0358c0 !important;
+  border-bottom: 10px solid #1d242d !important;
 }
 </style>
     <div class="px-4 px-lg-5 onglet" style="margin-top: 115px;">
@@ -86,7 +86,7 @@
                                             </form>
 
                                             <div class="d-grid gap-2 mt-3">
-                                                <a class="btn text-white btn-sm testlog" style="background:#0358c0"  href="#">
+                                                <a class="btn text-white btn-sm testlog" style="background:#1d242d"  href="#">
                                                     Soumettre
                                                 </a>
                                             </div>

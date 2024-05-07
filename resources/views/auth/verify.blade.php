@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class="container" style="margin-top: 100px;">
+<div class="container" style="margin-top: 125px;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -19,7 +19,7 @@
                     {{ __('If you did not receive the email') }},
                     <form class="d-inline" method="POST" action="{{ route('verification.resend') }}">
                         @csrf
-                        <button type="submit" class="btn btn-primar testlogy" style="background:#0358c0; color:white">{{ __('click here to request another') }}</button>.
+                        <button type="submit" class="btn btn-primary btn-sm" style="background:#1d242d; color:white">{{ __('click here to request another') }}</button>.
                     </form>
                 </div>
             </div>
